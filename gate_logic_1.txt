@@ -1,0 +1,34 @@
+- AND2: output = A1 & A2
+- AND3: output = A1 & A2 & A3
+- AND4: output = A1 & A2 & A3 & A4
+- OR2: output = A1 | A2
+- OR3: output = A1 | A2 | A3
+- OR4: output = A1 | A2 | A3 | A4
+- NAND2: output = NOT(A1 & A2)
+- NAND3: output = NOT(A1 & A2 & A3)
+- NAND4: output = NOT(A1 & A2 & A3 & A4)
+- NOR2: output = NOT(A1 | A2)
+- NOR3: output = NOT(A1 | A2 | A3)
+- NOR4: output = NOT(A1 | A2 | A3 | A4)
+- XOR2: output = A ^ B
+- XNOR2: output = NOT(A ^ B)
+- INV: output = NOT(A)
+- BUF: output = A
+- CLKBUF: output = A
+- AOI21: output = NOT((B1 & B2) | A)
+- AOI22: output = NOT((A1 & A2) | (B1 & B2))
+- AOI211: output = NOT((C1 & C2) | A | B)
+- AOI221: output = NOT((B1 & B2) | (C1 & C2) | A)
+- AOI222: output = NOT((A1 & A2) | (B1 & B2) | (C1 & C2))
+- OAI21: output = NOT((B1 | B2) & A)
+- OAI22: output = NOT((A1 | A2) & (B1 | B2))
+- OAI211: output = NOT((C1 | C2) & A & B)
+- OAI221: output = NOT((B1 | B2) & (C1 | C2) & A)
+- OAI222: output = NOT((A1 | A2) & (B1 | B2) & (C1 | C2))
+- OAI33: output = NOT((A1 | A2 | A3) & (B1 | B2 | B3))
+- MUX2: output = (S & B) | (NOT(S) & A)
+- HA: S = A ^ B, CO = A & B
+- FA: S = A ^ B ^ CI, CO = (A & B) | (CI & (A ^ B))
+- LOGIC0: output = 0
+- LOGIC1: output = 1
+

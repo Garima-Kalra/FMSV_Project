@@ -1,0 +1,49 @@
+{
+  "pi_vars": {
+    "N1[0]": 1,
+    "N2[0]": 2,
+    "N3[0]": 3,
+    "N6[0]": 4,
+    "N7[0]": 5
+  },
+  "gold_output_vars": {
+    "N22[0]": 12,
+    "N23[0]": 13
+  },
+  "faulty_output_vars": {
+    "N22[0]": 39,
+    "N23[0]": 35
+  },
+  "named_vars": {
+    "PI:N1[0]": 1,
+    "PI:N2[0]": 2,
+    "PI:N3[0]": 3,
+    "PI:N6[0]": 4,
+    "PI:N7[0]": 5,
+    "gold:bit:11:$abc$102$new_n10_": 6,
+    "gold:bit:12:$abc$102$new_n12_": 7,
+    "gold:bit:9:$abc$102$new_n8_": 8,
+    "gold:bit:10:$abc$102$new_n9_": 9,
+    "gold:bit:2:N1": 10,
+    "gold:bit:3:N2": 11,
+    "gold:bit:7:N22": 12,
+    "gold:bit:8:N23": 13,
+    "gold:bit:4:N3": 14,
+    "gold:bit:5:N6": 15,
+    "gold:bit:6:N7": 16,
+    "faulty:bit:11:$abc$102$new_n10_": 28,
+    "faulty:bit:12:$abc$102$new_n12_": 29,
+    "faulty:bit:9:$abc$102$new_n8_": 30,
+    "faulty:bit:10:$abc$102$new_n9_": 31,
+    "faulty:bit:2:N1": 32,
+    "faulty:bit:3:N2": 33,
+    "faulty:bit:7:N22": 34,
+    "faulty:bit:8:N23": 35,
+    "faulty:bit:4:N3": 36,
+    "faulty:bit:5:N6": 37,
+    "faulty:bit:6:N7": 38,
+    "faulty:fault_site:7": 39,
+    "diff:N22[0]": 51,
+    "diff:N23[0]": 52
+  }
+}

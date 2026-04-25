@@ -1,0 +1,10 @@
+fault,agent_status,restarts,conflicts,decisions,propagations,conflict_literals,memory_mb,cpu_time_sec,N1[0],N2[0],N3[0],N6[0],N7[0]
+net_2_SA0,UNSAT_AFTER_RETRIES,-,-,-,-,-,-,-,-,-,-,-,-
+net_3_SA1,SAT,1,0,1,5,0,5.74,0,0,0,1,0,0
+net_6_SA1,SAT,1,0,1,13,0,5.74,0,0,0,1,0,0
+net_7_SA0,SAT,1,0,1,41,0,5.74,0.000588,0,1,0,0,1
+net_7_SA1,SAT,1,0,1,14,0,5.74,0,0,0,1,0,0
+net_8_SA0,SAT,1,0,1,1,0,5.74,0,0,0,1,0,1
+net_8_SA1,SAT,1,0,1,1,0,5.74,0,0,1,1,1,1
+net_11_SA1,SAT,1,0,1,40,0,5.74,0,0,1,0,0,1
+net_12_SA0,SAT,1,0,1,23,0,5.74,0.000428,0,0,1,1,1

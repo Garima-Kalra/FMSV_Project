@@ -1,0 +1,14 @@
+# Reset
+design -reset
+
+# Read design
+read_verilog good.v
+hierarchy -check -top good_circuit
+
+# Synthesis
+synth -flatten
+
+abc -g AND, OR, NAND, NOR, XOR, XNOR
+# Save JSON
+write_json gold_netlist.json 
+show -format png -prefix circuit

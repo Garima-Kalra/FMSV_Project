@@ -1,0 +1,9 @@
+# Read the design
+read_verilog good.v
+
+# Establish hierarchy without modifying the gates
+hierarchy -top good_circuit
+
+# Export directly to JSON
+write_json gold_netlist.json
+show -format png -prefix circuit

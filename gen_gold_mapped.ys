@@ -1,0 +1,13 @@
+read_verilog good.v
+hierarchy -check -top good_circuit
+proc
+opt
+flatten
+opt
+techmap
+opt
+abc -liberty NangateOpenCellLibrary_typical.lib
+opt_clean
+write_verilog mapped.v
+write_json gold_netlist.json
+show -prefix good_circuit_mapped -format png
