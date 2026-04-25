@@ -90,6 +90,7 @@ class GenericJSONAgent:
                 {"role": "user", "content": json.dumps(input_data, indent=2)}
             ],
             temperature=0,
+            max_tokens= 8000,
             response_format={"type": "json_object"}
         )
 
