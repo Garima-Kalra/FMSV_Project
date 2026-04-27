@@ -129,7 +129,6 @@ To run on a benchmark, copy the `.v` file to `good.v` and update the top module 
 ```
 FMSV_Project/
 ├── good.v                        # Input circuit (Verilog)
-├── mapped.v                      # Technology-mapped netlist (Yosys output)
 ├── gold_netlist.json             # JSON netlist (Yosys output)
 ├── NangateOpenCellLibrary_typical.lib
 ├── gen_gold_mapped.ys            # Yosys synthesis script
@@ -139,10 +138,6 @@ FMSV_Project/
 ├── make_miter_cnf.py             # Miter + CNF encoder
 ├── run_sat_all_agent.py          # Pipeline orchestrator
 ├── run_all_agent.sh              # End-to-end shell runner
-├── faults/                       # Per-fault JSON files
-├── mapped_runs/                  # Per-fault mapped CNF runs
-├── result_collapsed.csv          # Post-collapse fault results
-├── result_all_agent.csv          # Final ATPG results
 ├── minisat/                      # MiniSAT binary
 └── Benchmarks/                   # ISCAS benchmark circuits
 ```
