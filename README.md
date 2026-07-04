@@ -1,4 +1,4 @@
-# FMSV — LLM-Guided Fault-Model SAT-ATPG
+# LLM-Assisted SAT-Based ATPG
 
 > An end-to-end ATPG pipeline that combines classical SAT solving with LLM agents for intelligent fault collapsing and partial input assignment in digital circuits.
 
